@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Cv} from '../Model/cv';
+import {CvService} from '../services/cv.service';
+import {Route, Router} from '@angular/router';
 
 @Component({
   selector: 'app-create-cv',
@@ -7,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateCvComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
-
+  navigateToForm() {
+    const link = ['cvForm'];
+    this.router.navigate(link);
+  }
 }

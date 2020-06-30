@@ -4,11 +4,12 @@ import {OpportunityService} from '../services/opportunity.service';
 import {ActivatedRoute} from '@angular/router';
 
 @Component({
-  selector: 'app-detail-job',
-  templateUrl: './detail-job.component.html',
-  styleUrls: ['./detail-job.component.css']
+  selector: 'app-detail-internship',
+  templateUrl: './detail-internship.component.html',
+  styleUrls: ['./detail-internship.component.css']
 })
-export class DetailJobComponent implements OnInit {
+export class DetailInternshipComponent implements OnInit {
+
   opportunity: Opportunity;
   erreur: string;
 

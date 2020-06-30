@@ -39,6 +39,8 @@ import {ProcessHTTPMsgService} from './services/process-httpmsg.service';
 import { CvFormComponent } from './cv-form/cv-form.component';
 import { PostFormComponent } from './post-form/post-form.component';
 import { DetailJobComponent } from './detail-job/detail-job.component';
+import { DetailInternshipComponent } from './detail-internship/detail-internship.component';
+import { CvTemplateComponent } from './cv-template/cv-template.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -70,7 +72,9 @@ import { DetailJobComponent } from './detail-job/detail-job.component';
   Slide3Component,
   CvFormComponent,
   PostFormComponent,
-  DetailJobComponent
+  DetailJobComponent,
+  DetailInternshipComponent,
+  CvTemplateComponent
   ],
     imports: [
         BrowserModule,

@@ -24,4 +24,12 @@ export class FindJobComponent implements OnInit {
     const link = ['detailJob', id];
     this.router.navigate(link);
   }
+  navigateToPost() {
+    const link = ['postJob'];
+    this.router.navigate(link);
+  }
+  navigateToCreateCV() {
+    const link = ['createCV'];
+    this.router.navigate(link);
+  }
 }

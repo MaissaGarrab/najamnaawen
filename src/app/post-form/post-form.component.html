@@ -4,19 +4,15 @@
 
 
     <!-- Login Form -->
-    <form>
-      <input type="text" id="title" class="fadeIn first" name="title" placeholder="job title">
-      <input type="text" id="domain" class="fadeIn second" name="domain" placeholder="domain">
-      <input type="text" id="link" class="fadeIn third" name="link" placeholder="link">
-      <input type="text" id="published_on" class="fadeIn fourth" name="date" placeholder="date">
-      <input type="text" id="description" class="fadeIn fourth" name="description" placeholder="description">
-      <input type="submit" class="fadeIn last" value="Submit">
+    <form novalidate class="cont" [formGroup]="PostForm" #rform= "ngForm" (ngSubmit)="onSubmitAdd()">
+      <input type="text" id="title" class="form-control" formControlName="title" [(ngModel)]="title" placeholder="job title">
+      <input type="text" id="domain" class="form-control" formControlName="domain" [(ngModel)]="domain" placeholder="domain">
+      <input type="text" id="link" class="form-control" formControlName="link" [(ngModel)]="link" placeholder="link">
+      <input type="text" id="published_on" class="form-control" formControlName="published_on" [(ngModel)]="published_on" placeholder="date">
+      <input type="text" id="description" class="form-control" formControlName="description" [(ngModel)]="description" placeholder="description">
+      <button type="submit" class="btn btn-primary" [disabled]="PostForm.invalid"
+              (click)="addOpportunity(PostForm.value)">submit</button>
     </form>
-
-    <!-- Remind Passowrd -->
-    <div id="formFooter">
-      <a [routerLink]="['createCV']" class="underlineHover" href="#">See template</a>
-    </div>
 
   </div>
 </div>

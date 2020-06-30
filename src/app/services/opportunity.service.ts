@@ -21,13 +21,13 @@ export class OpportunityService {
       new Opportunity(3, 'facebook', 3, 1, 'RT', 'facebook.com',
         'Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.',
         '22/06/2020'),
-      new Opportunity(4, 'facebook', 3, 1, 'RT', 'facebook.com',
+      new Opportunity(4, 'facebook', 2, 2, 'RT', 'facebook.com',
         'Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.',
         '22/06/2020'),
-      new Opportunity(5, 'facebook', 3, 1, 'RT', 'facebook.com',
+      new Opportunity(5, 'facebook', 2, 2, 'RT', 'facebook.com',
         'Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.',
         '22/06/2020'),
-      new Opportunity(6, 'facebook', 3, 1, 'RT', 'facebook.com',
+      new Opportunity(6, 'facebook', 2, 2, 'RT', 'facebook.com',
         'Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.',
         '22/06/2020')
     ];

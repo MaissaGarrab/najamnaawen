@@ -75,7 +75,34 @@
   background-color: #d3dae9;
   opacity: 100%;
 }
-
+#postButton {
+  color: darkblue;
+}
+#postButton:hover{
+  text-decoration: underline;
+}
+#formFooter1{
+  margin-left: 830px;
+  font-size: large;
+  background-color: lightsteelblue;
+  border-top: 1px solid #dce8f1;
+  padding: 27px 20px 27px;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 60%;
+  display: inline-block;
+  width: auto;
+}
+#formFooter1:hover{
+  background-color: #d3dae9;
+  opacity: 100%;
+}
+#createCVbutton{
+  color: darkblue;
+}
+#createCVbutton:hover{
+  text-decoration: underline;
+}
 .social-box .box{
   background: #FFF;
   border-radius: 10px;
@@ -107,12 +134,4 @@
   z-index: 1;
   transition: .2s ease;
   border-radius: 15px 15px 15px 15px;
-}
-
-.pagination{
-  margin-left: 550px;
-}
-.pagination>li>a {
-  border-radius: 50% !important;
-  margin: 0 5px;
 }
